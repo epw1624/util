@@ -24,3 +24,11 @@ Pillow 9.2.0
 **to run:**<br>
 python png_to_jpg.py img.png
 
+### qr.py <br>
+generate a QR code from a given link<br>
+the QR code will be a png file with the filename specified as an argument<br>
+**Dependencies**<br>
+qrcode 7.4.2
+**to run:**<br>
+python qr.py url filename
+
