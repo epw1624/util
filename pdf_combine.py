@@ -10,9 +10,7 @@ if __name__ == "__main__":
     
     result = PdfMerger()
     
-    for pdf in args:
-        cur_file = open(pdf, 'w+')
-
+    for pdf in args[1:]:
         result.append(pdf)
 
     result.write("combined.pdf")
