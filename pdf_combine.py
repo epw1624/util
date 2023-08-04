@@ -5,7 +5,7 @@ from PyPDF2 import PdfMerger
 if __name__ == "__main__":
     args = sys.argv
 
-    if len(args) < 2:
+    if len(args) < 3:
         raise Exception("You must select at least 2 documents to combine")
     
     result = PdfMerger()
